@@ -5,7 +5,7 @@
 	<title>CodeIgniter'A Hoşgeldiniz</title>
 <style type="text/css">
 #container {
-	width:1000px;
+	width:800px;
 	height: 1000px;
 	background: #333;
 	margin:auto;
