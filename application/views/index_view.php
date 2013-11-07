@@ -15,10 +15,18 @@
 	width:1000px;
 }
 
-#nav{
+/* #nav{
 	width: 100%;
 	height: 100px;
 	border-bottom: 1px solid white;
+	background: #999
+} */
+
+#nav{
+	float:right;
+	width: 200px;
+	height: 1000px;
+	border-left: 1px solid white;
 	background: #999
 }
 
