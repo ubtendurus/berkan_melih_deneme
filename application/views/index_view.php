@@ -5,7 +5,7 @@
 	<title>CodeIgniter'A Hoşgeldiniz</title>
 <style type="text/css">
 #container {
-	width:800px;
+	width:1000px;
 	height: 1000px;
 	background: #333;
 	margin:auto;
@@ -20,7 +20,6 @@
 	height: 100px;
 	border-bottom: 1px solid white;
 	background: #999
-	
 }
 
 .large #nav {
@@ -31,24 +30,22 @@
 	height: 1000px;
 }
 
-#header{
-	width:100%;
-	height: 80px;
-	background: #666 top center;
-	text-align: center;
 
-}
-
-.temizle{
-clear:both;
-}
 
 </style>
 	
+
+
+
+	
+</head>
+
+<body>
+	<script src="http://code.jquery.com/jquery-2.0.3.min.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript">
 function checkWindowSize() {  
       
-    if ( $(window).width() > 1200 ) {  
+    if ( $(window).width() > 1000 ) {  
         $('body').addClass('large');  
     }  
     else {  
@@ -59,12 +56,6 @@ function checkWindowSize() {
   
 $(window).resize(checkWindowSize); 
 </script>
-
-	<script src="http://code.jquery.com/jquery-2.0.3.min.js" type="text/javascript" charset="utf-8"></script>
-	
-</head>
-<body>
-
 <div id="container">
 	<div id="nav">
 		<ul>
